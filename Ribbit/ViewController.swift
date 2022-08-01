@@ -9,11 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var earthButtonImage: UIButton!
+    
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        earthButtonImage.setTitle("", for: .normal)
+        let earthImage = UIImage(named: "planetButton.png")
+        earthButtonImage.setImage(UIImage(named: "planetButton.png"), for: .normal)
+        
     }
-
-
+   
 }
 
