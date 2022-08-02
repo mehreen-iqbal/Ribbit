@@ -25,7 +25,12 @@ class SecondViewController: UIViewController {
 
 
         super.viewDidLoad()
-
+        label1.isHidden = true
+        label2.isHidden = true
+        label3.isHidden = true
+        label4.isHidden = true
+        label5.isHidden = true
+        label6.isHidden = true
         // Do any additional setup after loading the view.
     }
     
@@ -34,12 +39,7 @@ class SecondViewController: UIViewController {
         viewLoadSetUp()
     }
     func viewLoadSetUp() {
-        label1.isHidden = true
-        label2.isHidden = true
-        label3.isHidden = true
-        label4.isHidden = true
-        label5.isHidden = true
-        label6.isHidden = true
+        
         alert()
     }
     
