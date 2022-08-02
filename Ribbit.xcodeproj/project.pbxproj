@@ -19,6 +19,7 @@
 		BD61FE5D289864F200AD737D /* RibbitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61FE5C289864F200AD737D /* RibbitTests.swift */; };
 		BD61FE67289864F200AD737D /* RibbitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61FE66289864F200AD737D /* RibbitUITests.swift */; };
 		BD61FE69289864F200AD737D /* RibbitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61FE68289864F200AD737D /* RibbitUITestsLaunchTests.swift */; };
+		BDBED2C428999C85000DB727 /* public variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBED2C328999C85000DB727 /* public variables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		BD61FE62289864F200AD737D /* RibbitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RibbitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD61FE66289864F200AD737D /* RibbitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibbitUITests.swift; sourceTree = "<group>"; };
 		BD61FE68289864F200AD737D /* RibbitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibbitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDBED2C328999C85000DB727 /* public variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "public variables.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		BD61FE41289864F100AD737D /* Ribbit */ = {
 			isa = PBXGroup;
 			children = (
+				BDBED2C328999C85000DB727 /* public variables.swift */,
 				BD61FE42289864F100AD737D /* AppDelegate.swift */,
 				BD61FE44289864F100AD737D /* SceneDelegate.swift */,
 				BD61FE46289864F100AD737D /* ViewController.swift */,
@@ -271,6 +274,7 @@
 				BD61FE43289864F100AD737D /* AppDelegate.swift in Sources */,
 				BD61FE45289864F100AD737D /* SceneDelegate.swift in Sources */,
 				BD1EBCDA289975CD0012CCB6 /* SecondViewController.swift in Sources */,
+				BDBED2C428999C85000DB727 /* public variables.swift in Sources */,
 				BD1EBCDC289975DB0012CCB6 /* ThirdViewController.swift in Sources */,
 				BD61FE4D289864F100AD737D /* Ribbit.xcdatamodeld in Sources */,
 			);

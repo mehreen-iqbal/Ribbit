@@ -21,12 +21,6 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var label6: UILabel!
     override func viewDidLoad() {
-        label1.isHidden = true
-        label2.isHidden = true
-        label3.isHidden = true
-        label4.isHidden = true
-        label5.isHidden = true
-        label6.isHidden = true
 
 
 
@@ -35,26 +29,57 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        viewLoadSetUp()
+    }
+    func viewLoadSetUp() {
+        label1.isHidden = true
+        label2.isHidden = true
+        label3.isHidden = true
+        label4.isHidden = true
+        label5.isHidden = true
+        label6.isHidden = true
+        alert()
+    }
+    
     @IBAction func task1(_ sender: UIButton) {label1.isHidden = false
-        
+        score += 1
     }
     
     @IBAction func task2(_ sender: UIButton) {label2.isHidden = false
+        score += 1
     }
     
     
     @IBAction func task3(_ sender: UIButton) {label3.isHidden = false
+        score += 1
 
     }
     
     @IBAction func task4(_ sender: UIButton) {label4.isHidden = false
+        score += 1
 
     }
     @IBAction func task5(_ sender: UIButton) {label5.isHidden = false
+        score += 1
     }
     
     @IBAction func task6(_ sender: UIButton) {label6.isHidden = false
+        score += 1
 
+    }
+    
+    func alert(){
+        if score > 0 {
+            let alert = UIAlertController(title: "Your frog moved!", message: "Check the progress tab to see your frog's progress", preferredStyle: .alert)
+
+                    // add an action (button)
+                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+
+                    // show the alert
+                    self.present(alert, animated: true, completion: nil)
+        }
     }
     
     
