@@ -9,17 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var earthButtonImage: UIButton!
     
-
-    
+    @IBOutlet weak var earthImage: UIImageView!
+    @IBOutlet weak var startTitle: UILabel!
+    @IBOutlet weak var ribbitTitle: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        earthButtonImage.setTitle("", for: .normal)
-        let earthImage = UIImage(named: "planetButton.png")
-        earthButtonImage.setImage(UIImage(named: "planetButton.png"), for: .normal)
+    
         
     }
-   
+    
+    @IBAction func startButton(_ sender: UIButton) {
+    }
+    
+    
 }
 

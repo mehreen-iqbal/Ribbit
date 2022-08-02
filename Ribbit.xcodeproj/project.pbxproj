@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1EBCDA289975CD0012CCB6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1EBCD9289975CD0012CCB6 /* SecondViewController.swift */; };
+		BD1EBCDC289975DB0012CCB6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1EBCDB289975DB0012CCB6 /* ThirdViewController.swift */; };
 		BD61FE43289864F100AD737D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61FE42289864F100AD737D /* AppDelegate.swift */; };
 		BD61FE45289864F100AD737D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61FE44289864F100AD737D /* SceneDelegate.swift */; };
 		BD61FE47289864F100AD737D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61FE46289864F100AD737D /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD1EBCD9289975CD0012CCB6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BD1EBCDB289975DB0012CCB6 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		BD61FE3F289864F100AD737D /* Ribbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ribbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD61FE42289864F100AD737D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD61FE44289864F100AD737D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 				BD61FE44289864F100AD737D /* SceneDelegate.swift */,
 				BD61FE46289864F100AD737D /* ViewController.swift */,
 				BD61FE48289864F100AD737D /* Main.storyboard */,
+				BD1EBCD9289975CD0012CCB6 /* SecondViewController.swift */,
+				BD1EBCDB289975DB0012CCB6 /* ThirdViewController.swift */,
 				BD61FE4E289864F200AD737D /* Assets.xcassets */,
 				BD61FE50289864F200AD737D /* LaunchScreen.storyboard */,
 				BD61FE53289864F200AD737D /* Info.plist */,
@@ -264,6 +270,8 @@
 				BD61FE47289864F100AD737D /* ViewController.swift in Sources */,
 				BD61FE43289864F100AD737D /* AppDelegate.swift in Sources */,
 				BD61FE45289864F100AD737D /* SceneDelegate.swift in Sources */,
+				BD1EBCDA289975CD0012CCB6 /* SecondViewController.swift in Sources */,
+				BD1EBCDC289975DB0012CCB6 /* ThirdViewController.swift in Sources */,
 				BD61FE4D289864F100AD737D /* Ribbit.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
