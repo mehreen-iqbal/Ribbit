@@ -8,6 +8,8 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+    
+    var pastScore : Int = 0
 
     @IBOutlet weak var label1: UILabel!
     
@@ -20,6 +22,10 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var label5: UILabel!
     
     @IBOutlet weak var label6: UILabel!
+    
+    //buttons
+    
+    
     override func viewDidLoad() {
 
 
@@ -43,35 +49,42 @@ class SecondViewController: UIViewController {
         alert()
     }
     
+    
+    
     @IBAction func task1(_ sender: UIButton) {label1.isHidden = false
         score += 1
+        pastScore = score - 1
     }
     
     @IBAction func task2(_ sender: UIButton) {label2.isHidden = false
         score += 1
+        pastScore = score - 1
     }
     
     
     @IBAction func task3(_ sender: UIButton) {label3.isHidden = false
         score += 1
+        pastScore = score - 1
 
     }
     
     @IBAction func task4(_ sender: UIButton) {label4.isHidden = false
         score += 1
+        pastScore = score - 1
 
     }
     @IBAction func task5(_ sender: UIButton) {label5.isHidden = false
         score += 1
+        pastScore = score - 1
     }
     
     @IBAction func task6(_ sender: UIButton) {label6.isHidden = false
         score += 1
-
+        pastScore = score - 1
     }
     
     func alert(){
-        if score > 0 {
+        if score > pastScore {
             let alert = UIAlertController(title: "Your frog moved!", message: "Check the progress tab to see your frog's progress", preferredStyle: .alert)
 
                     // add an action (button)
@@ -80,6 +93,7 @@ class SecondViewController: UIViewController {
                     // show the alert
                     self.present(alert, animated: true, completion: nil)
         }
+        
     }
     
     

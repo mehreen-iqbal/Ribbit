@@ -32,6 +32,13 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var frogFive: UIImageView!
     @IBOutlet weak var frogSix: UIImageView!
     
+    //lines
+    
+    @IBOutlet weak var lineOne: UIImageView!
+    @IBOutlet weak var lineTwo: UIImageView!
+    @IBOutlet weak var lineThree: UIImageView!
+    @IBOutlet weak var lineFour: UIImageView!
+    @IBOutlet weak var lineFive: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,6 +62,11 @@ class ThirdViewController: UIViewController {
             frogFour.isHidden = true
             frogFive.isHidden = true
             frogSix.isHidden = true
+            lineOne.isHidden = true
+            lineTwo.isHidden = true
+            lineThree.isHidden = true
+            lineFour.isHidden = true
+            lineFive.isHidden = true
 
         }
         else if score == 1 {
@@ -64,6 +76,11 @@ class ThirdViewController: UIViewController {
             frogFour.isHidden = true
             frogFive.isHidden = true
             frogSix.isHidden = true
+            lineOne.isHidden = true
+            lineTwo.isHidden = true
+            lineThree.isHidden = true
+            lineFour.isHidden = true
+            lineFive.isHidden = true
 
         } else if score == 2 {
             frogOne.isHidden = true
@@ -72,6 +89,11 @@ class ThirdViewController: UIViewController {
             frogFour.isHidden = true
             frogFive.isHidden = true
             frogSix.isHidden = true
+            lineOne.isHidden = false
+            lineTwo.isHidden = true
+            lineThree.isHidden = true
+            lineFour.isHidden = true
+            lineFive.isHidden = true
 
         } else if score == 3 {
             frogOne.isHidden = true
@@ -80,6 +102,11 @@ class ThirdViewController: UIViewController {
             frogFour.isHidden = true
             frogFive.isHidden = true
             frogSix.isHidden = true
+            lineOne.isHidden = false
+            lineTwo.isHidden = false
+            lineThree.isHidden = true
+            lineFour.isHidden = true
+            lineFive.isHidden = true
 
         } else if score == 4 {
             frogOne.isHidden = true
@@ -88,6 +115,11 @@ class ThirdViewController: UIViewController {
             frogFour.isHidden = false
             frogFive.isHidden = true
             frogSix.isHidden = true
+            lineOne.isHidden = false
+            lineTwo.isHidden = false
+            lineThree.isHidden = false
+            lineFour.isHidden = true
+            lineFive.isHidden = true
 
         } else if score == 5 {
             frogOne.isHidden = true
@@ -96,6 +128,11 @@ class ThirdViewController: UIViewController {
             frogFour.isHidden = true
             frogFive.isHidden = false
             frogSix.isHidden = true
+            lineOne.isHidden = false
+            lineTwo.isHidden = false
+            lineThree.isHidden = false
+            lineFour.isHidden = false
+            lineFive.isHidden = true
 
         } else if score == 6 {
             frogOne.isHidden = true
@@ -104,6 +141,11 @@ class ThirdViewController: UIViewController {
             frogFour.isHidden = true
             frogFive.isHidden = true
             frogSix.isHidden = false
+            lineOne.isHidden = false
+            lineTwo.isHidden = false
+            lineThree.isHidden = false
+            lineFour.isHidden = false
+            lineFive.isHidden = false
 
         }
     }
