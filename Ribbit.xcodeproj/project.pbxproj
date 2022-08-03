@@ -20,6 +20,9 @@
 		BD61FE67289864F200AD737D /* RibbitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61FE66289864F200AD737D /* RibbitUITests.swift */; };
 		BD61FE69289864F200AD737D /* RibbitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61FE68289864F200AD737D /* RibbitUITestsLaunchTests.swift */; };
 		BDBED2C428999C85000DB727 /* public variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBED2C328999C85000DB727 /* public variables.swift */; };
+		BDE43F29289AC6B2006A6A64 /* BioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE43F28289AC6B2006A6A64 /* BioViewController.swift */; };
+		BDE43F2B289AC90E006A6A64 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE43F2A289AC90E006A6A64 /* ProfileViewController.swift */; };
+		BDE43F2D289AE690006A6A64 /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE43F2C289AE690006A6A64 /* profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		BD61FE66289864F200AD737D /* RibbitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibbitUITests.swift; sourceTree = "<group>"; };
 		BD61FE68289864F200AD737D /* RibbitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibbitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BDBED2C328999C85000DB727 /* public variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "public variables.swift"; sourceTree = "<group>"; };
+		BDE43F28289AC6B2006A6A64 /* BioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioViewController.swift; sourceTree = "<group>"; };
+		BDE43F2A289AC90E006A6A64 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BDE43F2C289AE690006A6A64 /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 				BD61FE44289864F100AD737D /* SceneDelegate.swift */,
 				BD61FE46289864F100AD737D /* ViewController.swift */,
 				BD61FE48289864F100AD737D /* Main.storyboard */,
+				BDE43F2A289AC90E006A6A64 /* ProfileViewController.swift */,
+				BDE43F2C289AE690006A6A64 /* profile.swift */,
+				BDE43F28289AC6B2006A6A64 /* BioViewController.swift */,
 				BD1EBCD9289975CD0012CCB6 /* SecondViewController.swift */,
 				BD1EBCDB289975DB0012CCB6 /* ThirdViewController.swift */,
 				BD61FE4E289864F200AD737D /* Assets.xcassets */,
@@ -273,8 +282,11 @@
 				BD61FE47289864F100AD737D /* ViewController.swift in Sources */,
 				BD61FE43289864F100AD737D /* AppDelegate.swift in Sources */,
 				BD61FE45289864F100AD737D /* SceneDelegate.swift in Sources */,
+				BDE43F2D289AE690006A6A64 /* profile.swift in Sources */,
+				BDE43F29289AC6B2006A6A64 /* BioViewController.swift in Sources */,
 				BD1EBCDA289975CD0012CCB6 /* SecondViewController.swift in Sources */,
 				BDBED2C428999C85000DB727 /* public variables.swift in Sources */,
+				BDE43F2B289AC90E006A6A64 /* ProfileViewController.swift in Sources */,
 				BD1EBCDC289975DB0012CCB6 /* ThirdViewController.swift in Sources */,
 				BD61FE4D289864F100AD737D /* Ribbit.xcdatamodeld in Sources */,
 			);

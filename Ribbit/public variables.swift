@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import UIKit
 
 
 public var score = 0
+
