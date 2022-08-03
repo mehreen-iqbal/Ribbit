@@ -40,47 +40,53 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        viewLoadSetUp()
-    }
-    func viewLoadSetUp() {
-        
-        alert()
-    }
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        viewLoadSetUp()
+//    }
+//    func viewLoadSetUp() {
+//
+//        alert()
+//    }
     
     
     
     @IBAction func task1(_ sender: UIButton) {label1.isHidden = false
         score += 1
         pastScore = score - 1
+        alert()
     }
     
     @IBAction func task2(_ sender: UIButton) {label2.isHidden = false
         score += 1
         pastScore = score - 1
+        alert()
     }
     
     
     @IBAction func task3(_ sender: UIButton) {label3.isHidden = false
         score += 1
         pastScore = score - 1
+        alert()
 
     }
     
     @IBAction func task4(_ sender: UIButton) {label4.isHidden = false
         score += 1
         pastScore = score - 1
+        alert()
 
     }
     @IBAction func task5(_ sender: UIButton) {label5.isHidden = false
         score += 1
         pastScore = score - 1
+        alert()
     }
     
     @IBAction func task6(_ sender: UIButton) {label6.isHidden = false
         score += 1
         pastScore = score - 1
+        alert()
     }
     
     func alert(){

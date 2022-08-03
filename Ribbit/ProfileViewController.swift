@@ -28,6 +28,10 @@ class ProfileViewController: UIViewController {
         user1=Profile(usernameSet: Username.text!, emailSet: email.text!, passwordSet: password.text!)
     }
     
+    
+    @IBAction func logInButton(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 
