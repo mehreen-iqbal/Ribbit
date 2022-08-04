@@ -7,7 +7,24 @@
 
 import UIKit
 
-class BioViewController: UIViewController {
+class BioViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    @IBOutlet weak var imageDisplay: UIImageView!
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
+        imageDisplay.image = selectedImage
+            imagePicker.dismiss(animated: true, completion: nil)
+        }
+    }
+    var imagePicker = UIImagePickerController()
+    
+    @IBAction func choosePhotoTapped(_ sender: Any) {
+        
+        imagePicker.sourceType = .photoLibrary
+        present(imagePicker, animated: true, completion: nil)
+    }
+    
     @IBOutlet weak var bioLabel: UILabel!
     
     @IBOutlet weak var textField: UITextField!
@@ -20,6 +37,7 @@ class BioViewController: UIViewController {
         textField.isHidden = true
         super.viewDidLoad()
         user.text = "\(user1.Username)"
+        imagePicker.delegate = self
 
         // Do any additional setup after loading the view.
     }
